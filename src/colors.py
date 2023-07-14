@@ -1,0 +1,15 @@
+from colorama import Fore, Back, Style
+
+WALL_COLOR = Fore.WHITE + Back.LIGHTBLACK_EX + Style.BRIGHT
+HUT_COLOR = Fore.BLUE
+TH_COLOR = Fore.YELLOW + Back.LIGHTYELLOW_EX
+CANNON_COLOR = Fore.RED + Back.LIGHTBLUE_EX
+KING_COLOR = Fore.MAGENTA + Back.LIGHTMAGENTA_EX
+
+FIELD = Fore.GREEN + " . " + Style.RESET_ALL
+
+GREEN = Fore.GREEN + Style.BRIGHT
+RED = Fore.RED + Style.BRIGHT
+YELLOW = Fore.YELLOW + Style.BRIGHT
+BLACK = Fore.BLACK + Style.BRIGHT
+WHITE = Fore.WHITE + Style.BRIGHT
